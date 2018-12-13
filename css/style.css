@@ -1,0 +1,155 @@
+/*youtube-icon-as-font(from svg)*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/fonts/icomoon.eot?xt34xp');
+  src:  url('../fonts/icomoon/fonts/icomoon.eot?xt34xp#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/fonts/icomoon.ttf?xt34xp') format('truetype'),
+    url('../fonts/icomoon/fonts/icomoon.woff?xt34xp') format('woff'),
+    url('../fonts/icomoon/fonts/icomoon.svg?xt34xp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube:before {
+  content: "\e900";
+  color: #3f59a6;
+}
+/*youtube-icon-as-font(from svg)*/
+
+
+
+/*Playfair.css*/
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayFairDisplay-Regular/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/PlayFairDisplay-Regular/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayFairDisplay-Regular/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PlayFairDisplay-Regular/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/PlayFairDisplay-Regular/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/PlayFairDisplay-Regular/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Playfair.css*/
+
+
+/*helvetica-bold*/
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Bold/Helvetica-Bold.eot');
+    src: url('../fonts/Helvetica-Bold/Helvetica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Helvetica-Bold/Helvetica-Bold.woff2') format('woff2'),
+        url('../fonts/Helvetica-Bold/Helvetica-Bold.woff') format('woff'),
+        url('../fonts/Helvetica-Bold/Helvetica-Bold.ttf') format('truetype'),
+        url('../fonts/Helvetica-Bold/Helvetica-Bold.svg#Helvetica-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+/*helvetica-bold*/
+
+/*helvetica-bdcn*/
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.eot');
+    src: url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.woff2') format('woff2'),
+        url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.woff') format('woff'),
+        url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.ttf') format('truetype'),
+        url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.svg#HelveticaNeueLTStd-BdCn') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+/*helvetica-bdcn*/
+
+
+
+/*header*/
+header {
+	padding: 15px 0;
+}
+.container-mine{
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+.flex-between{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo img {
+	width: 130px;
+}
+header li {
+	margin-left: 18px;
+	font-size: 30px;
+}
+.burger{
+	display: none;
+}
+.line{
+	background-color: #3D58A6;
+	width: 2px;
+	height: 26px; 
+}
+.color-red{
+	color: red;
+}
+.color-li{
+	color: #3D58A6;
+}
+/*header*/
+
+/*section-first*/
+
+.first-section{
+	background-color: rgb(238,64,55);
+}
+.first-section h2{
+	color: white;
+	font-size: 20px;
+	font-family: Arial;
+}
+/*section-first*/
+
+/*second-section*/
+.second-section{
+	background-color: rgb(230,230,230);
+}
+/*second-section*/
+
+.flex-around{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*third-section*/
+.ts-div{
+	background-color: rgb(55,62,152);
+	color: white;
+	padding-left: 200px;
+    padding-top: 20px;
+}
+#contact-form input{
+	width: 70%;
+	border-radius: 0;
+	background-color: rgb(55,62,152);
+}
+/*third-section*/
