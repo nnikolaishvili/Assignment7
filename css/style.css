@@ -48,36 +48,6 @@
 /*Playfair.css*/
 
 
-/*helvetica-bold*/
-@font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/Helvetica-Bold/Helvetica-Bold.eot');
-    src: url('../fonts/Helvetica-Bold/Helvetica-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Helvetica-Bold/Helvetica-Bold.woff2') format('woff2'),
-        url('../fonts/Helvetica-Bold/Helvetica-Bold.woff') format('woff'),
-        url('../fonts/Helvetica-Bold/Helvetica-Bold.ttf') format('truetype'),
-        url('../fonts/Helvetica-Bold/Helvetica-Bold.svg#Helvetica-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-/*helvetica-bold*/
-
-/*helvetica-bdcn*/
-@font-face {
-    font-family: 'Helvetica Neue LT Std';
-    src: url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.eot');
-    src: url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.woff2') format('woff2'),
-        url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.woff') format('woff'),
-        url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.ttf') format('truetype'),
-        url('../fonts/Helvetica-BdCn/HelveticaNeueLTStd-BdCn.svg#HelveticaNeueLTStd-BdCn') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-/*helvetica-bdcn*/
-
-
-
 /*header*/
 header {
 	padding: 15px 0;
@@ -99,6 +69,7 @@ header {
 header li {
 	margin-left: 18px;
 	font-size: 30px;
+	font-family: 'Abel', sans-serif;
 }
 .burger{
 	display: none;
@@ -107,6 +78,9 @@ header li {
 	background-color: #3D58A6;
 	width: 2px;
 	height: 26px; 
+}
+.nav, .social-icons{
+	 padding-top: 10px;
 }
 .color-red{
 	color: red;
@@ -190,7 +164,6 @@ form button{
 @media only screen and (max-width: 840px){
 	.container-mine{
 		max-width: 690px;
-		width: 100%;
 	}
 	.nav, .social-icons{
 	    padding-top: 15px;
@@ -217,24 +190,76 @@ form button{
 }
 
 @media only screen and (max-width: 767px){
+	.container-mine{
+		max-width: 660px;
+	}
 	.ts-div p{
-		padding-left: 150px;
+		padding-left: 145px;
     }
 	#contact-form input{
 		width: 100%;
 	}
+	.button{
+		display: flex;
+		justify-content: center;
+	}	 
 }
 
 @media only screen and (max-width: 700px){
 	.container-mine{
-		max-width: 600px;
-		width: 100%;
+		max-width: 640px;
 	}
 }
 
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 660px){
 	.container-mine{
-		max-width: 540px;
-		width: 100%;
+		max-width: 570px;
+	}
+}
+@media only screen and (max-width: 585px){
+	.container-mine{
+		max-width: 510px;
+	}
+}
+@media only screen and (max-width: 520px){
+	.container-mine{
+		max-width: 450px;
+	}
+	.ts-div p{
+		padding-left: 130px;
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 465px){
+	.container-mine{
+		max-width: 390px;
+	}
+}
+@media only screen and (max-width: 383px){
+	.container-mine{
+		max-width: 340px;
+	}
+	.ts-div p{
+		padding-left: 90px;
+	}
+}
+@media only screen and (max-width: 360px){
+	.container-mine{
+		max-width: 310px;
+	}
+	.ts-div p{
+		padding-left: 70px;
+	}
+	.hide{
+		display: none;
+	}
+}
+@media only screen and (max-width: 330px){
+	.container-mine{
+		max-width: 280px;
+	}
+	.ts-div p{
+		padding-left: 70px;
 	}
 }
