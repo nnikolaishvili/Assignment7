@@ -145,9 +145,20 @@ header li {
 	background-color: rgb(55,62,152);
 	color: white;
 }
+.ts-div p{
+	padding-left: 200px;
+}
 #contact-form input{
 	width: 70%;
 	border-radius: 0;
 	background-color: rgb(55,62,152);
+}
+form button{
+	background-color: rgb(238,64,55);
+	border-radius: 0;
+	color: white;
+}
+.p1, .p2{
+	margin-bottom: 20px;
 }
 /*third-section*/
